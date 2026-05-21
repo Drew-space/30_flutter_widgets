@@ -9,7 +9,8 @@ class HomePage extends StatelessWidget {
       body: Column(
         children: [
           Expanded(flex: 2, child: Container(color: Colors.deepPurple)),
-          Expanded(child: Container(color: Colors.blue)),
+          Expanded(flex: 2, child: Container(color: Colors.blue)),
+          Expanded(child: Container(color: Colors.green)),
         ],
       ),
     );
