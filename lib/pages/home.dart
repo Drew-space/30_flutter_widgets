@@ -6,11 +6,12 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.start,
-        crossAxisAlignment: CrossAxisAlignment.center,
+      body: Row(
+        mainAxisAlignment: MainAxisAlignment.end,
+        crossAxisAlignment: CrossAxisAlignment.end,
+
         children: [
-          Container(height: 100, color: Colors.deepPurple[600]),
+          Expanded(child: Container(width: 100, color: Colors.deepPurple[600])),
 
           Container(height: 100, width: 100, color: Colors.deepPurple[400]),
 
