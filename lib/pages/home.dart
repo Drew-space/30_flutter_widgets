@@ -7,7 +7,10 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
-        children: [Container(height: 200, color: Colors.deepPurple)],
+        children: [
+          Expanded(flex: 2, child: Container(color: Colors.deepPurple)),
+          Expanded(child: Container(color: Colors.blue)),
+        ],
       ),
     );
   }
