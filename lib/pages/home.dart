@@ -7,10 +7,11 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Expanded(flex: 2, child: Container(color: Colors.deepPurple)),
-          Expanded(flex: 2, child: Container(color: Colors.blue)),
-          Expanded(child: Container(color: Colors.green)),
+          Container(height: 100, width: 100, color: Colors.deepPurple[600]),
+          Container(height: 100, width: 100, color: Colors.deepPurple[400]),
+          Container(height: 100, width: 100, color: Colors.deepPurple[200]),
         ],
       ),
     );
